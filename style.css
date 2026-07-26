@@ -309,3 +309,22 @@ footer p{
         font-size:22px;
     }
 }
+
+/* Active Menu */
+
+nav ul li a.active{
+    color:#38bdf8;
+}
+
+/* Animation */
+
+.hidden{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all .8s ease;
+}
+
+.show{
+    opacity:1;
+    transform:translateY(0);
+}
